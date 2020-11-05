@@ -1,0 +1,16 @@
+{
+  "extends": ["config:base", ":prHourlyLimitNone", ":maintainLockFilesWeekly"],
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance"],
+      "automerge": true
+    }
+  ],
+  "dockerfile": {
+    "fileMatch": ["(^|/)Dockerfile-[a-z]+$"]
+  },
+  "nvm": {
+    "fileMatch": ["(^|/)\\.nvmrc$"]
+  },
+  "postUpdateOptions": ["yarnDedupeHighest"]
+}
