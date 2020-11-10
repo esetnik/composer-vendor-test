@@ -476,17 +476,17 @@
         },
         {
             "name": "php-http/curl-client",
-            "version": "2.1.0",
-            "version_normalized": "2.1.0.0",
+            "version": "2.1.1",
+            "version_normalized": "2.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/curl-client.git",
-                "reference": "9e79355af46d72e10da50be20b66f74b26143441"
+                "reference": "f0cb9802da5c56b6553dfbef4ce5e1ee333b01de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/curl-client/zipball/9e79355af46d72e10da50be20b66f74b26143441",
-                "reference": "9e79355af46d72e10da50be20b66f74b26143441",
+                "url": "https://api.github.com/repos/php-http/curl-client/zipball/f0cb9802da5c56b6553dfbef4ce5e1ee333b01de",
+                "reference": "f0cb9802da5c56b6553dfbef4ce5e1ee333b01de",
                 "shasum": ""
             },
             "require": {
@@ -506,11 +506,11 @@
             },
             "require-dev": {
                 "guzzlehttp/psr7": "^1.0",
+                "laminas/laminas-diactoros": "^2.0",
                 "php-http/client-integration-tests": "^2.0",
-                "phpunit/phpunit": "^7.5",
-                "zendframework/zend-diactoros": "^2.0"
+                "phpunit/phpunit": "^7.5"
             },
-            "time": "2019-12-27T11:02:07+00:00",
+            "time": "2020-10-12T06:56:33+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -542,7 +542,7 @@
             ],
             "support": {
                 "issues": "https://github.com/php-http/curl-client/issues",
-                "source": "https://github.com/php-http/curl-client/tree/master"
+                "source": "https://github.com/php-http/curl-client/tree/2.1.1"
             },
             "install-path": "../php-http/curl-client"
         },
@@ -2013,5 +2013,6 @@
             "install-path": "../symfony/service-contracts"
         }
     ],
-    "dev": true
+    "dev": true,
+    "dev-package-names": []
 }

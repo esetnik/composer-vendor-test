@@ -1,24 +1,24 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '00457007f19726fb97eb978db7dd006027a6b75b',
     'name' => '__root__',
   ),
   'versions' => 
   array (
     '__root__' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '00457007f19726fb97eb978db7dd006027a6b75b',
     ),
     'clue/stream-filter' => 
     array (
@@ -108,12 +108,12 @@
     ),
     'php-http/curl-client' => 
     array (
-      'pretty_version' => '2.1.0',
-      'version' => '2.1.0.0',
+      'pretty_version' => '2.1.1',
+      'version' => '2.1.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '9e79355af46d72e10da50be20b66f74b26143441',
+      'reference' => 'f0cb9802da5c56b6553dfbef4ce5e1ee333b01de',
     ),
     'php-http/discovery' => 
     array (
