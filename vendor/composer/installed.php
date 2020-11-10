@@ -1,24 +1,24 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '00457007f19726fb97eb978db7dd006027a6b75b',
     'name' => '__root__',
   ),
   'versions' => 
   array (
     '__root__' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '00457007f19726fb97eb978db7dd006027a6b75b',
     ),
     'clue/stream-filter' => 
     array (
@@ -85,8 +85,8 @@
     array (
       'provided' => 
       array (
-        0 => '*',
-        1 => '1.0',
+        0 => '1.0',
+        1 => '*',
       ),
     ),
     'php-http/client-common' => 
@@ -102,8 +102,8 @@
     array (
       'provided' => 
       array (
-        0 => '*',
-        1 => '1.0',
+        0 => '1.0',
+        1 => '*',
       ),
     ),
     'php-http/curl-client' => 
@@ -253,12 +253,12 @@
     ),
     'sentry/sentry' => 
     array (
-      'pretty_version' => '3.0.2',
-      'version' => '3.0.2.0',
+      'pretty_version' => '3.0.4',
+      'version' => '3.0.4.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a35c6c71693a72f2fedb9b6f9644ced52268771d',
+      'reference' => '745b3faafdc865ea8de75e0dc61ddfdd36a31d9c',
     ),
     'symfony/deprecation-contracts' => 
     array (

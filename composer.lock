@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4bc8a61c3f5e4fa8472c7ab8318feca1",
+    "content-hash": "7cdfdb63c4a05cf6a928634e5c676f9a",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -1212,16 +1212,16 @@
         },
         {
             "name": "sentry/sentry",
-            "version": "3.0.2",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-php.git",
-                "reference": "a35c6c71693a72f2fedb9b6f9644ced52268771d"
+                "reference": "745b3faafdc865ea8de75e0dc61ddfdd36a31d9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/a35c6c71693a72f2fedb9b6f9644ced52268771d",
-                "reference": "a35c6c71693a72f2fedb9b6f9644ced52268771d",
+                "url": "https://api.github.com/repos/getsentry/sentry-php/zipball/745b3faafdc865ea8de75e0dc61ddfdd36a31d9c",
+                "reference": "745b3faafdc865ea8de75e0dc61ddfdd36a31d9c",
                 "shasum": ""
             },
             "require": {
@@ -1300,7 +1300,7 @@
             ],
             "support": {
                 "issues": "https://github.com/getsentry/sentry-php/issues",
-                "source": "https://github.com/getsentry/sentry-php/tree/3.0.2"
+                "source": "https://github.com/getsentry/sentry-php/tree/3.0.4"
             },
             "funding": [
                 {
@@ -1312,7 +1312,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-10-02T14:16:36+00:00"
+            "time": "2020-11-06T11:58:00+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
